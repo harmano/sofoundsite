@@ -928,6 +928,15 @@ a:hover
     width: 100%;
     height: 5px;
   }
+  #content-mobile {display: block;}
+  #content-mobile-text{
+    display: block;
+  }
+
+  .text-header-minor{
+    margin-top: 10%;
+  }
+
   #margin-d{
       margin-bottom: -35%;
       z-index: 9;
@@ -1016,6 +1025,21 @@ a:hover
   .text-header-pro{
     font-size: 10vw;
     padding-right: 50%;
+  }
+  .header-opener{
+    margin-left: 70px;
+  }
+  .margin-top-header{
+    margin-top:0px;
+  }
+  .margin-text-header-paragraph{
+    padding-right: 0px;
+    margin-right: 0px;
+    font-size: 8px;
+  }
+
+  .style-button-blue{
+    font-size: 12px;
   }
 
   .blockquote-footer{
