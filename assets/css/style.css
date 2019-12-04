@@ -1,0 +1,1570 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* ....------------------------------------------------ Background ------------------------------------------------------- ...*/
+
+body {
+  background-color: #fcfcfc;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+#content-mobile{
+  display: none;
+}
+
+#content-mobile-text{
+  display: none;
+}
+
+.our-services-margin-top{
+  margin-top: 19%;
+}
+.header-opener{
+  margin-left: 14%;
+  margin-top:6%;
+}
+.review-section{
+  margin: 10% 0 10% 0;
+  padding: 0 10% 0 10%;
+}
+
+.margin-top-reviews{
+ margin-top: 7%;
+}
+
+.hidden-X-SM{
+  visibility: hidden;
+}
+
+.card{
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  margin-top: 40px;
+  width: 15rem;
+}
+
+.servce-box{
+  background-color: red;
+  width:100px;
+  height: 100px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 10px;
+}
+
+.aboutus{
+  background-color: #cccccc;
+  height: 100%;
+  width: 100%;
+  overflow: ;
+  padding-bottom: 15px;
+}
+
+.whoweare{
+  background-color: #cccccc;
+  height: 100%;
+  width: 100%;
+  overflow: ;
+  padding: 2%;
+}
+
+.whoeweare-text-padding{
+  margin: 0 0 4% 0;
+}
+
+.aboutus-logo{
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+
+.boxed{
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 20px;
+  margin-top: 15%;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.center{
+  margin-left: 10% ;
+  width: 80%;
+  padding: 10px;
+}
+
+.whoeweare-margin{
+  padding: 6%;
+}
+
+.form-contact{
+  margin-right: 15%;
+}
+
+.form-margin-bottom {
+  margin-bottom: 7%;
+}
+/* ....------------------------------------------------ Buttons ------------------------------------------------------- ...*/
+.text-header-button{
+  color: #2F386B;
+  font-weight: 600;
+
+}
+
+.header-button-sizing {
+  border-radius: 10px;
+  padding:2px 8px 2px 8px;
+  font-size: 12px;
+
+}
+
+.header-button-sizing-2 {
+  border-radius: 10px;
+  padding:5px 8px 5px 8px;
+  font-size: 22px;
+  margin-top: 5px;
+  margin-left: px;
+}
+.socials {
+    background: #fcfcfc;
+    color: #1a55a3;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 7px;
+
+}
+
+.socials-2 {
+    background: #fcfcfc;
+    color: #1a55a3;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 7px;
+    size: 20px;
+    font-size: 20px;
+}
+
+.social-margin{
+  margin-bottom: 5%;
+}
+
+.socials:hover {
+  opacity: 1;
+  transition: 0.4s;
+  background: #8b8b8b;
+  color: white;
+}
+
+.style-button {
+  background-color: white; /* #fcfcfc */
+  border: none;
+  color: black;
+  padding: 13px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 72px;
+  box-shadow: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  display: block;
+  text-align: center;
+  margin-top: 8%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .style-button-2 {
+    background-color: white; /* #fcfcfc */
+    border: none;
+    color: #0b0c45;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 72px;
+    box-shadow: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+    text-align: center;
+    margin-top: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .style-button-contact{
+      background-color: white; /* #fcfcfc */
+      border: none;
+      color: #0b0c45;
+      padding: 13px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13px;
+      border-radius: 72px;
+      box-shadow: 1px;
+      margin-left: 0;
+      margin-right: auto;
+      text-align: left;
+      display: block;
+      text-align: center;
+      margin-top: 4%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+.style-button-blue{
+  background-color: #2870dc; /* #fcfcfc */
+  border: none;
+  color: white;
+  padding: 13px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2vw;
+  border-radius: 72px;
+  box-shadow: 1px;
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.style-button-blue-aboutus{
+  background-color: #2870dc; /* #fcfcfc */
+  border: none;
+  color: white;
+  padding: 13px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  border-radius: 72px;
+  box-shadow: 1px;
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+  display: block;
+  text-align: left;
+  margin-top: 8%;
+}
+
+.style-button-blue-aboutus:hover{
+  background-color: #214d8f;
+  opacity: 1;
+  transition: 0.4s;
+  color: white;
+}
+.style-button-blue:hover {
+  background-color: #214d8f;
+  opacity: 1;
+  transition: 0.4s;
+  color: white;
+}
+.style-button:hover {
+  background-color: #8b8b8b;
+  opacity: 1;
+  transition: 0.4s;
+  color: white;
+
+}
+
+.style-button-2:hover {
+  background-color: #8b8b8b;
+  opacity: 1;
+  transition: 0.4s;
+  color: white;
+}
+
+.style-button-contact:hover {
+  background-color: #8b8b8b;
+  opacity: 1;
+  transition: 0.4s;
+  color: white;
+}
+
+#margin-d{
+    margin-bottom: -27%;
+    z-index: 9;
+}
+
+.image-footer{
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  background-image: url(assets/images/footer.jpg);
+  background-size: 100% 100%;
+}
+
+.background-box{
+  background-color: #0b0c45;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 23px 8%;
+  width: 70%;
+  height: 400px;
+  background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  max-width: 950px;
+  display: block;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.textarea-info{
+  height: 100%;
+  width: 100%;
+}
+/* ....------------------------------------------------ Nav ------------------------------------------------------- ...*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.margin-top{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+
+
+
+/* ....------------------------------------------------ Images ------------------------------------------------------- ...*/
+
+.image-services{
+  width: 160px;
+  height: auto;
+}
+
+.image-reviews {
+  border-radius: 50%;
+  height: 70px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  margin-bottom: -70px;
+}
+
+.image-whoweare{
+  width: 100%;
+  height: 100%;
+}
+.image-recents{
+  width: 100%;
+  height: 90%;
+  margin-right: 0px;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/sofoundsite-services.jpg");
+
+  style="width:100%"
+  background-size: contain;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: static;
+}
+
+.image-header{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width:100%;
+  background-image: url(assets/images/sofoundsite-services2.jpg);
+}
+
+
+
+
+.logo-mobile{
+  width: 35%;
+  height: auto;
+  margin: 2.5% 0% 0 4%;
+  z-index: 9;
+}
+
+
+.logo{
+  width: 35%;
+  height: auto;
+  margin: 2.5% 0% 0 4%;
+}
+
+
+/* ....------------------------------------------------ Text ------------------------------------------------------- ...*/
+.whoweare-text-paragraph{
+  padding: 10px;
+}
+.text-header-minor{
+  font-size: 1.3vw;
+  margin-bottom: -3px;
+  margin-top: -7px;
+
+}
+
+.text-see-more{
+  color: #cccccc;
+  font-size:8px;
+  margin-right:8%;
+  font-weight: 400;
+}
+
+.text-header-pro{
+  font-size: 3vw;
+  color: #021b55;
+  margin-left: 0px;
+}
+
+.text-header-paragraph{
+  font-size: 1vw;
+  color: grey;
+  margin-top: 3%;
+  padding-right: 45%;
+}
+
+
+.text-recent-project{
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size:3.5vw;
+}
+
+.text-footer-copyright{
+  color: white;
+  font-weight: 100;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.text-form{
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.nav-link:hover {
+  color: grey	;
+
+  transition-delay:1s;
+}
+
+.text-header{
+  color:white;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#menu li
+{
+  padding: 10px 10px;;
+  font-size: 22px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #232323;
+  font-weight: 100;
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: #2F386B;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+
+
+.dropbtn {
+  background-color: transparent;
+  color:white;
+  font-weight: 100;
+  font-size: 12px;
+  border: none;
+  margin-right: ;
+}
+
+.text-title{
+  font-family: 'Poppins', sans-serif;
+  color: Black;
+  font-size:2.2vw;
+  margin-bottom: 20px;
+
+}
+
+.text-subtitle{
+  font-family: Helvetica Neue Medium;
+}
+
+.text-heading{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 12px;
+}
+
+.text-heading-2{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 10px;
+}
+
+.text-paragraph{
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+
+
+
+.text-footer{
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.text-footer-list{
+  color: white;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.margin-bottom{
+  margin-bottom: 5px;
+}
+
+.text-footer-list:hover{
+  color: #cdcdcd;
+  font-size: 12px;
+  margin-bottom: 15px;
+  opacity: 1;
+  transition: 0.4s;
+  font-weight: 150;
+}
+
+/* ....------------------------------------------------ @Media ------------------------------------------------------- ...*/
+
+
+/*..................... start of largest tablet styles ..................... */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: ;
+  }
+  .media-size{
+    background-color: red;
+    width: 100%;
+    height: 5px;
+  }
+  .header-button-sizing {
+    border-radius: 18px;
+    padding:2px 8px 2px 8px;
+    font-size: 12px;
+    margin-top: 9px;
+    margin-left: 7px;
+  }
+  .text-header{
+    color:white;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .dropbtn {
+    font-weight: 100;
+    font-size: 15px;
+
+  }
+  #margin-d{
+      margin-bottom: -25%;
+      z-index: 9;
+  }
+  .background-box{
+    background-color: #0b0c45;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 23px 8%;
+    width: 70%;
+    height: 450px;
+    background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    max-width: 950px;
+    display: block;
+      text-align: center;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .image-recents{
+    max-width: 350px;
+      max-height: 350px;
+    margin-right: 0px;
+  }
+  .image-services{
+    width: 180px;
+    height: auto;
+  }
+
+  .text-heading{
+    font-size: 14px;
+  }
+  .services-margin-top{
+    margin-top: 20px;
+  }
+
+  .text-paragraph{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+  }
+
+  .card{
+    width: 20rem;
+    height: ;
+    margin-right:;
+  }
+  .center{
+    margin-left: 20%;
+  }
+  .our-services-margin-top{
+    margin-top: 15%;
+  }
+}
+/*.....................  start of large tablet styles ..................... */
+@media screen and (max-width: 991px) {
+  .media-size{
+    background-color: blue;
+    width: 100%;
+    height: 5px;
+  }
+  .our-services-margin-top{
+    margin-top: 14%;
+  }
+  .header-button-sizing {
+    border-radius: 18px;
+    padding:2px 8px 2px 8px;
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: 7px;
+  }
+  .text-header{
+    color:white;
+    font-weight: 100;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .dropbtn {
+    font-weight: 100;
+    font-size: 10px;
+
+  }
+
+  #margin-d{
+      margin-bottom: -30%;
+      z-index: 9;
+  }
+
+  .image-recents{
+    width: 220px;
+    height: 220px;
+    margin-right: 0px;
+  }
+
+  .image-services{
+    width: 150px;
+    height: auto;
+  }
+
+  .text-heading{
+    font-size: 14px;
+  }
+  .services-margin-top{
+    margin-top: 20px;
+  }
+  .text-paragraph{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+  }
+
+  .card{
+    width: 20rem;
+    height: ;
+    margin-right:;
+  }
+  .text-header-pro{
+    font-size: 3.5vw;
+    color: #021b55;
+    margin-left: 0px;
+  }
+  .text-header-minor{
+    font-size: 15px;
+  }
+  .margin-top-header{
+    margin-top: -8px;
+  }
+  .margin-text-header-paragraph{
+    margin-top: 10px;
+  }
+
+  .style-button-blue{
+    background-color: #2870dc; /* #fcfcfc */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    border-radius: 72px;
+    box-shadow: 1px;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+    text-align: center;
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+}
+
+/*.....................  start of medium tablet styles ..................... */
+@media screen and (max-width: 767px) {
+
+  .media-size{
+    background-color: yellow;
+    width: 100%;
+    height: 5px;
+  }
+  .form-contact-margin{
+    margin-right: 6%;
+  }
+  .socials-2 {
+    padding: 0;
+    margin: 0;
+    margin-right: -10px;
+    margin-top: 5px;
+  }
+
+  .form-contact-margin{
+    margin-right: 40px;
+  }
+  #margin-d{
+      margin-bottom: -35%;
+      z-index: 9;
+  }
+  .aboutus-logo{
+    margin: 0px;
+    width: 400px;
+    height: 400px;
+    margin: ;
+  }
+
+  .aboutus{
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+    overflow: ;
+  }
+  .boxed{
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-left: 10%;
+  }
+  .center{
+    margin-left: 25%;
+    width: 80%;
+    padding: 10px;
+  }
+  .image-recents{
+    width: 170px;
+    height: 170px;
+    margin-right: 0px;
+  }
+
+  .whoweare-bottom{
+    margin-top:  ;
+  }
+  .whoeweare-margin{
+    padding: 6%;
+    padding-top: 0;
+  }
+
+  .image-services{
+    width: 150px;
+    height: auto;
+  }
+
+  .text-title{
+    font-family: 'Poppins', sans-serif;
+    color: Black;
+    font-size:22PX;
+    margin-bottom: 0px;
+    font-weight: 800;
+
+  }
+  .text-paragraph{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-top: 12px;
+  }
+
+  .header-opener{
+    margin-left: 14%;
+    margin-top:10%;
+  }
+  .text-header-paragraph{
+    font-size: 1.5vw;
+    color: grey;
+    margin-top: 3%;
+  }
+  .our-services-margin-top{
+    margin-top: 10%;
+  }
+  .background-box{
+    background-color: #0b0c45;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 23px 8%;
+    width: 80%;
+    height: 400px;
+    background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    max-width: 950px;
+    display: block;
+      text-align: center;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .text-header-pro{
+    font-size: 4vw;
+    color: #021b55;
+    margin-left: 0px;
+  }
+
+  .text-title{
+    font-size: 3.5vw;
+  }
+
+  .form-contact{
+    margin-right: 5%;
+    margin-left: 15%;
+  }
+
+  .text-contact{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+  }
+
+
+}
+
+/*.....................  start of phone styles ..................... */
+@media screen and (max-width: 479px) {
+  .media-size{
+    background-color: green;
+    width: 100%;
+    height: 5px;
+  }
+  #margin-d{
+      margin-bottom: -35%;
+      z-index: 9;
+  }
+  .socials-2{
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-right: -30px;
+  }
+  .aboutus-logo{
+    margin: 0px;
+    width: 300px;
+    height: 300px;
+    margin: 5%;
+    margin-bottom: 0px;
+  }
+  .aboutus{
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+    overflow: ;
+    margin-top:
+  }
+
+  .boxed{
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-left: 80px;
+  }
+
+  .center{
+    margin-left: 25%;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .boxed{
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 60px;
+    margin-top: 15%;
+  }
+  .image-recents{
+    width: 220px;
+    height: 220px;
+    margin-right: 0px;
+  }
+  .text-recent-project{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size:30px;
+  }
+
+  .whoweare-bottom{
+    margin-top: 20px;
+  }
+  .card{
+    width: 15rem;
+    height: ;
+    margin-right:;
+  }
+  .margin-top-reviews{
+    margin-top: 0;
+  }
+
+  .image-services{
+    width: 120px;
+    height: auto;
+  }
+  .text-title{
+    font-family: 'Poppins', sans-serif;
+    color: Black;
+    font-size:3.5vw;
+    margin-bottom: 10px;
+    font-weight: 800;
+
+  }
+
+  .text-header-pro{
+    font-size: 4vw;
+  }
+  .blockquote-footer{
+    font-size: 9px;
+  }
+  .card-title{
+    font-size: 14px;
+  }
+  .whoeweare-text-padding{
+    margin-left: 10px;
+    padding: 0;
+  }
+
+  .background-box{
+    background-color: #0b0c45;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 23px 8%;
+    width: 90%;
+    height: 400px;
+    background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    max-width: 950px;
+    display: block;
+      text-align: center;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .media-size{
+    background-color: grey;
+    width: 100%;
+    height: 5px;
+  }
+  .whoeweare-text-padding2{
+    margin-top: 15px;
+
+  }
+
+  .whoeweare-image-margin{
+    margin-bottom: 0px;
+  }
+
+  #subtexting{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  #subtexting-top{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .whoweare-text-paragraph{
+    padding-left: 10px;
+  }
+  #margin-d{
+      margin-bottom: -35%;
+      z-index: 9;
+  }
+  .image-recents{
+    width: 170px;
+    height: 170px;
+    margin-left: 0%;
+  }
+  .aboutus-logo{
+    margin: 0px;
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+  }
+
+  .boxed{
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .aboutus{
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+    overflow: ;
+  }
+  .text-paragraph{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+  }
+  .center{
+    margin-left: 18%;
+    width: 80%;
+    padding: 10px;
+  }
+  .circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .text-recent-project{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size:25px;
+  }
+  .text-title{
+    font-family: 'Poppins', sans-serif;
+    color: Black;
+    font-size:15PX;
+    margin-bottom: 10px;
+
+  }
+  .card{
+    width: 12rem;
+    height: ;
+    margin-right:;
+  }
+
+  .margin-top-reviews{
+    margin-top: 0;
+  }
+
+  .text-heading{
+    font-size: 9px;
+  }
+
+  .blockquote-footer{
+    font-size: 9px;
+  }
+  .card-title{
+    font-size: 14px;
+  }
+
+
+  .hidden{
+    display: none;
+  }
+  .text-header-pro{
+    color: white;
+    font-size: 20px;
+    margin-left: 13%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .text-header-minor{
+    color: white;
+    font-size: 10px;
+    margin-left: 27%;
+    font-weight: 0;
+
+  }
+  .text-header-minor-2{
+    color: white;
+    font-size: 10px;
+    margin-left: 24%;
+    margin-bottom: 0px;
+  }
+  .style-button-blue{
+    background-color: #2870dc; /* #fcfcfc */
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 72px;
+    box-shadow: 1px;
+    margin-left: 22%;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+    text-align: center;
+    margin-top: %;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 0px;
+  }
+  .text-header-paragraph{
+    color: #fcfcfc;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 30%;
+    padding-right: 0px;
+    margin-bottom: 15px;
+    font-size: 6px;
+  }
+
+  .our-services-margin-top{
+    margin-top: 16%;
+  }
+  .services-margin-top{
+    margin-top: 0px;
+  }
+
+  .hidden-X-SM{
+    visibility: visible;
+  }
+
+  #content-mobile {display: block;}
+  #content-mobile-text{
+    display: block;
+  }
+
+  .background-box{
+    background-color: #0b0c45;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 23px 8%;
+    width: 90%;
+    height: 400px;
+    background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    max-width: 950px;
+    display: block;
+      text-align: center;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .style-button-2 {
+    background-color: white; /* #fcfcfc */
+    border: none;
+    color: #0b0c45;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 72px;
+    box-shadow: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+    text-align: center;
+    margin-top: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .style-button-contact{
+      background-color: white; /* #fcfcfc */
+      border: none;
+      color: #0b0c45;
+      padding: 13px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      border-radius: 72px;
+      box-shadow: 1px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      display: block;
+      text-align: center;
+      margin-top: 8%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+      .form-contact{
+        margin-right: 0%;
+        margin-left: 10%;
+      }
+
+      .text-contact{
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+      }
+
+      .socials-2 {
+        padding: 0;
+        margin: 0;
+        margin-right: -35px;
+        margin-top: 0px;
+        font-size: 12px;
+      }
+}
+
+
+
+#navbar{
+  background-color: ;
+}
+
+
+
+/* ....------------------------------------------------ Mobile Nav------------------------------------------------------- ...*/
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+
+  /* make it look decent enough */
+
+}
+
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 20px;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: #cdcdcd;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: black;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  height: 1000px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+/* ....------------------------------------------------ dropdown ------------------------------------------------------- ...*/
+
+
+.dropdown {
+  position: relative;
+  text-align: center;
+}
+
+/*... The sub headings...*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  border-radius: 0px;
+  z-index: 1;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  min-width: 160px;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: white;
+  min-width: 160px;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: ;
+
+
+}
+/* ....------------------------------------------------ Footer ------------------------------------------------------- ...*/
+
+
+/* ....------------------------------------------------ modal ------------------------------------------------------- ...*/
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+ -webkit-animation-duration: 0.4s;
+ animation-name: fadeIn;
+ animation-duration: .8s
+}
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+/* Modal Content pop up*/
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  max-width: 700px;
+  margin-top: 10px;
+  border-radius: 10px;
+  -webkit-animation-name: slideIn;
+-webkit-animation-duration: 0.4s;
+animation-name: slideIn;
+animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
