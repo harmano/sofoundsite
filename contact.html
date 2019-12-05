@@ -30,14 +30,14 @@
             <img src="assets/images/logo-website-6.jpg" class="logo"  alt="">
 
           </div>
-          <div class="d-none d-sm-none d-md-block col-6">
+          <div  class="d-none d-sm-none d-md-block col-6">
             <div class="row  margin-top">
-              <div class="col-2 text-center">
-                <a class="text-header nav-link" href="inedx.html">Home</a>
+              <div    class="col-2 ">
+                <a class="text-header nav-link" href="index.html">Home</a>
               </div>
               <div class="col-2 text-left">
                 <div class="dropdown">
-                  <button class="text-header nav-link  dropbtn">Services</button>
+                  <button style="padding:0; overflow: hidden;" class="text-header nav-link  dropbtn">Services</button>
                   <div class="dropdown-content">
                     <a href="#">Web Development</a>
                     <a href="#">Graphic Designing</a>
@@ -48,20 +48,20 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2 text-center">
-                <a class="text-header nav-link" href="#">Portfolio</a>
+              <div class="col-2 text-center ">
+                <a class="text-header  nav-link" href="#">About</a>
               </div>
               <div class="col-2 text-center">
                 <a class="text-header nav-link" href="contact.html">Contact</a>
               </div>
               <div class="col-4 ">
-                <button  id="myBtn" type="button" class="d-sm-none d-md-block d-none text-header-button header-button-sizing btn btn-light"> Have a Question?</button>
+                <button  style="margin:0; " id="myBtn" type="button" class="d-sm-none d-md-block d-none text-header-button header-button-sizing btn btn-light"> Have a Question?</button>
                 <div id="myModal" class="modal">
 
                   <!-- Modal content -->
                   <div class="modal-content">
                     <span class="close">&times;</span>
-                    <h3 style="padding-bottom:20px;" class="text-center">Have a Question?</h3>
+                    <h3 style="padding-bottom:20px;" class="text-title text-center">Have a Question?</h3>
                     <form  class=" container">
                       <div class="form-row">
                         <div class="form-group col-12 col-sm-12">
@@ -133,10 +133,10 @@
               but hey, it's pure CSS magic.
               -->
               <ul id="menu">
-                <a style="font-weight:100; " class="text-title" href="#"><li>Home</li></a>
+                <a style="font-weight:100; " class="text-title" href="index.html"><li>Home</li></a>
                 <a style="font-weight:100;" class="text-title" href="#"><li>Services</li></a>
                 <a style="font-weight:100;" class="text-title" href="#"><li>Portfolio</li></a>
-                <a style="font-weight:100;" class="text-title" href="#"><li>Contact</li></a>
+                <a style="font-weight:100;" class="text-title" href="contact.html"><li>Contact</li></a>
 
                 <button style="box-shadow: 0; font-size:15px; margin-top:10px; margin-left:4%;" class="style-button-blue-aboutus" type="button" name="button">Have a Question?</button>
               </ul>
@@ -148,31 +148,31 @@
         </div>
         <!-- Image -->
         <img src="assets/images/sofoundsite-services2.jpg" class="image-header"  alt="">
-        <img id="content-mobile" src="assets/images/mobile-header.jpg" class="image-header"  alt="">
+        <img id="content-mobile" src="assets/images/Untitled-4.jpg" class="image-header"  alt="">
 
       </nav>
       <!-- ..............Promotion......... -->
       <div class="hidden">
         <div class="col-6"></div>
-        <div class="col-6 header-opener header-margin " >
+        <div class="col-6 header-opener  " >
           <div class="row">
             <p class="text-header-minor">Take your</p>
           </div>
           <div class="row ">
-            <h1 class="text-header-pro ">Brand&Business</h1>
+            <h1 class="text-header-pro header-margin ">Brand <br> & <br> Business</h1>
           </div>
           <div class="row">
             <p class="text-header-minor margin-top-header">To a new level</p>
           </div>
           <div class="row" >
-            <p class="text-header-paragraph margin-text-header-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud  exercitation
+            <p class="text-header-paragraph margin-text-header-paragraph ">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud  exercitation
           </div>
           <div class="row">
-            <button  class="style-button-blue" type="button" name="button">Contact Us</button>
+            <a href="contact.html"> <button  class="style-button-blue" type="button" name="button">Contact Us</button></a>
           </div>
         </div>
       </div>
-      <div id="content-mobile-text" class="">
+      <!-- <div id="content-mobile-text" class="">
         <div class="col-12 header-opener header-margin " >
           <div class="row">
             <p class="text-header-minor">Take your</p>
@@ -190,7 +190,7 @@
             <button  class="style-button-blue" type="button" name="button">Contact Us</button>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </header>
     <br>
@@ -462,5 +462,31 @@
   <!-- Copyright -->
 
 </footer>
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
 
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
 </html>
