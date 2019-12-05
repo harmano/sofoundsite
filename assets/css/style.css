@@ -14,6 +14,11 @@ html {
   display: none;
 }
 
+.dropdown-services-2{
+  font-size: 14px;
+  margin-left:14%;
+}
+
 .aboutus-text{
   padding-left: 8%;
   padding-right: 7%;
@@ -739,6 +744,10 @@ a:hover
     color: #021b55;
     margin-left: 0px;
   }
+  .contact-margin-top{
+    margin-top: 200px;
+  }
+
 }
 /*.....................  start of large tablet styles ..................... */
 @media screen and (max-width: 991px) {
