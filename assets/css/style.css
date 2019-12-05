@@ -441,7 +441,7 @@ ul {
 }
 
 .text-see-more{
-  color: #cccccc;
+  color: black;
   font-size:8px;
   margin-right:8%;
   font-weight: 400;
@@ -1084,7 +1084,30 @@ a:hover
   }
   .services-container{
     padding-left: 7%;
-    padding-right: 7%;
+    padding-right:  7%;
+  }
+  .text-see-more{
+    color: black;
+    font-size:8px;
+    margin-right:0%;
+    font-weight: 400;
+    margin-left: 100px;
+  }
+
+  .text-phone{
+    margin-top: 20px;
+  }
+  .text-phone-2{
+    margin-top: -20px;
+  }
+
+  .text-p-phone-who{
+    margin-top: -10px;
+  }
+
+  .image-whoweare{
+    margin: 0;
+    padding: 0;
   }
 }
 
