@@ -570,14 +570,16 @@ a:hover
 
 .text-footer{
   color: white;
-  font-weight: 100;
+  font-weight: 500;
   font-size: 15px;
+
 }
 
 .text-footer-list{
   color: white;
   font-size: 12px;
   margin-bottom: 15px;
+  font-weight: 400;
 }
 
 .margin-bottom{
@@ -793,6 +795,9 @@ a:hover
   #dropdown-padding{
     padding-left: -30px;
   }
+  .text-click-see-more{
+    margin-right: -30px;
+  }
 
 }
 
@@ -938,6 +943,7 @@ a:hover
     font-family: 'Lato', sans-serif;
     font-size: 14px;
   }
+
 
 
 }
