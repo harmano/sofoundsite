@@ -14,6 +14,13 @@ html {
   display: none;
 }
 
+.aboutus-text{
+  padding-left: 8%;
+  padding-right: 7%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 #content-mobile{
   display: none;
 }
@@ -25,6 +32,16 @@ html {
 .our-services-margin-top{
   margin-top: 19%;
 }
+.aboutus-margin-top {
+  margin-top: 17%;
+}
+
+.newspaper{
+  -webkit-column-count: 3; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 3; /* Old Firefox */
+  column-count: 3;
+}
+
 .header-opener{
   margin-left: 14%;
   margin-top:6%;
@@ -85,7 +102,15 @@ html {
   width: 400px;
   height: 400px;
 }
+.aboutus-logo-2{
 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: ;
+  text-align: center;
+}
 .boxed{
   width: 80%;
   background-color: white;
@@ -756,6 +781,7 @@ a:hover
     width: 20rem;
     height: ;
     margin-right:;
+    margin: ;
   }
   .text-header-pro{
     font-size: 4.5vw;
@@ -811,6 +837,7 @@ a:hover
   }
   .form-contact-margin{
     margin-right: 6%;
+    margin-left: 4%;
   }
   .socials-2 {
     padding: 0;
@@ -881,9 +908,7 @@ a:hover
 
   }
 
-  .text-title:hover{
-    color: darkgrey;
-  }
+
   .text-paragraph{
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -943,9 +968,22 @@ a:hover
     font-family: 'Lato', sans-serif;
     font-size: 14px;
   }
+  .card{
+    margin-top: 15%;
+  }
 
-
-
+  .margin-top-reviews{
+    margin-top: 0;
+  }
+  .review-section{
+    margin-top: 0;
+    margin-bottom: 0%;
+  }
+  .newspaper{
+    -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+    -moz-column-count: 2; /* Old Firefox */
+    column-count: 2;
+  }
 }
 
 /*.....................  start of phone styles ..................... */
@@ -954,6 +992,18 @@ a:hover
     background-color: green;
     width: 100%;
     height: 5px;
+  }
+  .aboutus-margin-top {
+    margin-top: 5%;
+  }
+  .newspaper{
+    -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+    -moz-column-count: 2; /* Old Firefox */
+    column-count: 2;
+  }
+  .form-contact-margin{
+    margin-right: 50px;
+    margin-left: 0%;
   }
 
   #show-on-small{display: block;}
@@ -1065,6 +1115,12 @@ a:hover
     font-size: 10vw;
     padding-right: 10%;
   }
+
+  .text-header-pro-about{
+    font-size: 5vw;
+    padding-right: 10%;
+    margin-left: 1px;
+  }
   .header-opener{
     margin-left: 16%;
   }
@@ -1141,7 +1197,9 @@ a:hover
     margin: 0;
     padding: 0;
   }
-
+  .contact-margin-top{
+    margin-top: 40px;
+  }
 }
 
 
