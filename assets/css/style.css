@@ -10,6 +10,9 @@ body {
 html {
   overflow-x: hidden;
 }
+#show-on-small{
+  display: none;
+}
 
 #content-mobile{
   display: none;
@@ -197,7 +200,7 @@ html {
   .style-button-2 {
     background-color: white; /* #fcfcfc */
     border: none;
-    color: #0b0c45;
+    color: black;
     padding: 13px 25px;
     text-align: center;
     text-decoration: none;
@@ -217,7 +220,7 @@ html {
     .style-button-contact{
       background-color: white; /* #fcfcfc */
       border: none;
-      color: #0b0c45;
+      color: black;
       padding: 13px 25px;
       text-align: center;
       text-decoration: none;
@@ -529,6 +532,9 @@ a:hover
   font-size: 12px;
   border: none;
   margin-right: ;
+  margin: 0;
+  padding: 0;
+
 }
 
 .text-title{
@@ -675,7 +681,13 @@ a:hover
     margin-left: 20%;
   }
   .our-services-margin-top{
-    margin-top: 15%;
+    margin-top: 9%;
+  }
+
+  .text-header-pro{
+    font-size: 5vw;
+    color: #021b55;
+    margin-left: 0px;
   }
 }
 /*.....................  start of large tablet styles ..................... */
@@ -686,26 +698,28 @@ a:hover
     height: 5px;
   }
   .our-services-margin-top{
-    margin-top: 14%;
+    margin-top: 9%;
   }
   .header-button-sizing {
     border-radius: 18px;
     padding:2px 8px 2px 8px;
-    font-size: 8px;
+    font-size: 1.18vw;
     margin-top: 10px;
     margin-left: 7px;
   }
   .text-header{
     color:white;
     font-weight: 100;
-    font-size: 10px;
+    font-size: 14px;
     text-align: center;
     margin: 0;
     padding: 0;
   }
   .dropbtn {
     font-weight: 100;
-    font-size: 10px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
 
   }
 
@@ -742,7 +756,7 @@ a:hover
     margin-right:;
   }
   .text-header-pro{
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     color: #021b55;
     margin-left: 0px;
   }
@@ -774,6 +788,10 @@ a:hover
     text-align: center;
     margin-top: 1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #dropdown-padding{
+    padding-left: -30px;
   }
 
 }
@@ -857,6 +875,10 @@ a:hover
     font-weight: 800;
 
   }
+
+  .text-title:hover{
+    color: darkgrey;
+  }
   .text-paragraph{
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -873,7 +895,7 @@ a:hover
     margin-top: 3%;
   }
   .our-services-margin-top{
-    margin-top: 10%;
+    margin-top: 4%;
   }
   .background-box{
 
@@ -898,7 +920,7 @@ a:hover
   }
 
   .text-header-pro{
-    font-size: 4vw;
+    font-size: 5.5vw;
     color: #021b55;
     margin-left: 0px;
   }
@@ -927,6 +949,10 @@ a:hover
     width: 100%;
     height: 5px;
   }
+
+  #show-on-small{display: block;}
+  #dont-show-on-small{display: none;}
+
   #content-mobile {display: block;}
   #content-mobile-text{
     display: block;
@@ -980,7 +1006,7 @@ a:hover
   }
 
   .center{
-    margin-left: 18%;
+    margin-left: 15.5%;
     width: 80%;
     padding: 10px;
   }
@@ -1109,6 +1135,7 @@ a:hover
     margin: 0;
     padding: 0;
   }
+
 }
 
 
