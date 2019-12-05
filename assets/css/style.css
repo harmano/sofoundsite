@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Calistoga|Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-
-
 /* ....------------------------------------------------ Background ------------------------------------------------------- ...*/
 html, body {width: auto!important; overflow-x: hidden!important}
 body {
@@ -40,7 +38,7 @@ html {
   margin-top: 19%;
 }
 .aboutus-margin-top {
-  margin-top: 10%;
+  margin-top: 17%;
 }
 
 .newspaper{
@@ -858,6 +856,9 @@ a:hover
   .text-click-see-more{
     margin-right: -30px;
   }
+  .aboutus-margin-top {
+    margin-top: 15%;
+  }
 
 }
 
@@ -868,13 +869,6 @@ a:hover
     background-color: yellow;
     width: 100%;
     height: 5px;
-  }
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
   }
   .form-contact-margin{
     margin-right: 6%;
@@ -1026,7 +1020,7 @@ a:hover
     column-count: 2;
   }
   .aboutus-margin-top {
-    margin-top: 0%;
+    margin-top: 5%;
   }
 }
 
@@ -1373,7 +1367,7 @@ body
 {
   position: absolute;
   width: 300px;
-  height: 5000px;
+  height: 2000px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
