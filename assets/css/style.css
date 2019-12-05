@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 /* ....------------------------------------------------ Background ------------------------------------------------------- ...*/
-
+html, body {width: auto!important; overflow-x: hidden!important} 
 body {
   background-color: #fcfcfc;
 }
@@ -320,13 +320,12 @@ html {
 }
 
 .background-box{
-  background-color: #0b0c45;
   border-radius: 20px;
   margin: 40px;
   padding: 23px 8%;
   width: 70%;
   height: 400px;
-  background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+  background-color: #cdcdcd;
   background-repeat: no-repeat;
   background-size: auto;
   background-size: 100% 100%;
@@ -625,13 +624,12 @@ a:hover
       z-index: 9;
   }
   .background-box{
-    background-color: #0b0c45;
-    border-radius: 20px;
+   border-radius: 20px;
     margin: 40px;
     padding: 23px 8%;
     width: 70%;
     height: 450px;
-    background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+    background-color: #cdcdcd;
     background-repeat: no-repeat;
     background-size: auto;
     background-size: 100% 100%;
@@ -877,13 +875,13 @@ a:hover
     margin-top: 10%;
   }
   .background-box{
-    background-color: #0b0c45;
+
     border-radius: 10px;
     margin: 40px;
     padding: 23px 8%;
     width: 80%;
     height: 400px;
-    background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+    background-color: #cdcdcd;
     background-repeat: no-repeat;
     background-size: auto;
     background-size: 100% 100%;
@@ -1024,10 +1022,10 @@ a:hover
 
   .text-header-pro{
     font-size: 10vw;
-    padding-right: 50%;
+    padding-right: 10%;
   }
   .header-opener{
-    margin-left: 70px;
+    margin-left: 60px;
   }
   .margin-top-header{
     margin-top:0px;
@@ -1054,13 +1052,13 @@ a:hover
   }
 
   .background-box{
-    background-color: #0b0c45;
+    background-color: #cdcdcd;
     border-radius: 10px;
     margin: 40px;
     padding: 23px 8%;
     width: 90%;
     height: 400px;
-    background-image: url("/Users/Harman007/Desktop/test-app/test-app/assets/images/footer-form.jpg");
+    background-color: #cdcdcd;
     background-repeat: no-repeat;
     background-size: auto;
     background-size: 100% 100%;
