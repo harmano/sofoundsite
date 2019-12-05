@@ -111,6 +111,29 @@ html {
   height: ;
   text-align: center;
 }
+
+.aboutus-logo-profilepics{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: ;
+  text-align: center;
+}
+
+.aboutus-socials{
+  margin-left: 15px;
+}
+.aboutus-right{
+  margin-top: 10px;
+}
+
+.aboutus-profile-summary{
+  padding-right: 90px;
+}
+.job-d{
+  font-size: 10px;
+}
 .boxed{
   width: 80%;
   background-color: white;
@@ -1200,6 +1223,13 @@ a:hover
   .contact-margin-top{
     margin-top: 40px;
   }
+
+  .text-header-pro-boutus{
+    margin-bottom: -5px;
+    padding-bottom: 0;
+    margin-left: -5px
+  }
+
 }
 
 
