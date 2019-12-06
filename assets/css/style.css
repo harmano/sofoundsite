@@ -18,6 +18,12 @@ html {
   margin-top: -0px;
 }
 
+#myDIV{
+  display: none;
+}
+
+
+
 .contact-padding{
   padding-top: 18%;
 }
