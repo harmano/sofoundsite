@@ -14,6 +14,14 @@ html {
   display: none;
 }
 
+#contact-grid{
+  margin-top: -0px;
+}
+
+.contact-padding{
+  padding-top: 18%;
+}
+
 .bg-services-indepth{
   background-color: #cccccc;
   width: 100%;
@@ -35,6 +43,7 @@ html {
 .dropdown-services-2{
   font-size: 14px;
   margin-left:14%;
+  font-weight: 300;
 }
 
 .aboutus-text{
@@ -382,25 +391,23 @@ html {
 }
 
 #margin-d{
-    margin-bottom: -27%;
+    margin-bottom: -25%;
     z-index: 9;
 }
 
 .image-footer{
   width: 100%;
-  z-index: -1;
+  z-index: -9;
   position: relative;
-  background-image: url(assets/images/footer.jpg);
   background-size: 100% 100%;
 }
 
 .background-box{
   margin-top: 3%;
   border-radius: 20px;
-  margin: 40px;
   padding: 23px 8%;
   width: 70%;
-  height: 400px;
+  height: auto;
   background-color: #cdcdcd;
   background-repeat: no-repeat;
   background-size: auto;
@@ -413,8 +420,8 @@ html {
     margin-right: auto;
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
+    margin-bottom: 4%;
+    padding-bottom: 4%;
 }
 
 .textarea-info{
@@ -675,7 +682,7 @@ a:hover
   margin-bottom: 15px;
   opacity: 1;
   transition: 0.4s;
-  font-weight: 150;
+  font-weight: 500;
 }
 
 /* ....------------------------------------------------ @Media ------------------------------------------------------- ...*/
@@ -711,31 +718,8 @@ a:hover
     font-size: 15px;
 
   }
-  #margin-d{
-      margin-bottom: -25%;
-      z-index: 9;
-  }
-  .background-box{
-    margin-top: 3%;
-   border-radius: 20px;
-    margin: 40px;
-    padding: 23px 8%;
-    width: 70%;
-    height: 450px;
-    background-color: #cdcdcd;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-size: 100% 100%;
-    max-width: 950px;
-    display: block;
-      text-align: center;
-      display: inline-block;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: left;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  }
+
   .image-recents{
     max-width: 350px;
       max-height: 350px;
@@ -777,6 +761,9 @@ a:hover
   }
   .contact-margin-top{
     margin-top: 200px;
+  }
+  .header-opener-web{
+    margin-left: 12%;
   }
 
 }
@@ -889,6 +876,10 @@ a:hover
   }
   .aboutus-margin-top {
     margin-top: 15%;
+  }
+
+  .header-opener-web{
+    margin-left: 13%;
   }
 
 }
@@ -1012,7 +1003,8 @@ a:hover
       margin-right: auto;
       text-align: left;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+      padding-bottom: 4%;
+      margin-bottom: 10%;
   }
 
   .text-header-pro{
@@ -1061,6 +1053,11 @@ a:hover
   .header-opener-web{
     margin-left: 12%;
   }
+
+  .contact-padding{
+    padding-top: 32%;
+  }
+
 
 }
 
@@ -1246,7 +1243,8 @@ a:hover
       margin-right: auto;
       text-align: left;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-bottom: 100px;
+    padding-bottom: 4%;
+    margin-bottom: 8%;
 
   }
   .services-container{
