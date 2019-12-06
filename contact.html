@@ -134,7 +134,15 @@
               -->
               <ul id="menu">
                 <a style="font-weight:100; " class="text-title" href="index.html"><li>Home</li></a>
-                <a style="font-weight:100;" class="text-title" href="services.html"><li>Services</li></a>
+                <p onclick="myFunction()" style="font-weight:100;" class="text-title" href="services.html"><li>Services<i onclick="myFunction()" style="margin-left:15px;"class="fas fa-caret-down"></i></li></p>
+                <div id="myDIV" class="row">
+                  <p class="dropdown-services-2">Graphic</p>
+                  <p class="dropdown-services-2">Graphic</p>
+                  <p class="dropdown-services-2">Graphic</p>
+                  <p class="dropdown-services-2">Graphic</p>
+                  <p class="dropdown-services-2">Graphic</p>
+                  <p class="dropdown-services-2">Graphic</p>
+                </div>
                 <a style="font-weight:100;" class="text-title" href="aboutus.html"><li>About Us</li></a>
                 <a style="font-weight:100;" class="text-title" href="contact.html"><li>Contact</li></a>
 
@@ -192,7 +200,6 @@
           </div>
         </div>
       </div> -->
-
     </header>
     <br>
    <!-- ............................................. (1) Lets Connect .............................................................................. -->
@@ -418,9 +425,7 @@
   <!-- Footer Links -->
 
   <!--  <hr>
-
    Call to action
-
   <ul style="background-color:grey;" class="list-unstyled list-inline text-center py-2">
     <li class="list-inline-item">
       <h5 class="mb-1">Register for free</h5>
@@ -429,7 +434,6 @@
       <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
     </li>
   </ul>
-
   <hr> -->
 
   <!-- Social buttons -->
@@ -489,5 +493,13 @@
       modal.style.display = "none";
     }
   }
+  function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 </script>
 </html>
