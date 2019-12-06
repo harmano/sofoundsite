@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SoFound Media</title>
+    <meta charset="UTF-8">
+    <link href="css/hover-min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/346eb970e2.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://photos.google.com/photo/AF1QipNCPZCxgVfFAbywzOD3qfbPAZNXKfKr6koDmSKz">
+</head>
+<div class="media-size">
+
+</div>
+<body>
+    <!-- ............................................. Nav ............................................. -->
+    <header>
+      <nav class="">
+        <!-- Web -->
+        <div class="row ">
+          <div class="col-6 d-none d-sm-none d-md-block col-6 ">
+            <img src="assets/images/logo-website-6.jpg" class="logo"  alt="">
+
+          </div>
+          <div  class="d-none d-sm-none d-md-block col-6">
+            <div class="row  margin-top">
+              <div   style="margin-left:-10px;"  class="col-2 ">
+                <a class="text-header nav-link" href="index.html">Home</a>
+              </div>
+              <div class="col-2 text-left">
+                <div  class="dropdown">
+                  <button id="dropdown-padding" style="" class="nav-link  dropbtn">Services</button>
+                  <div class="dropdown-content">
+                    <a href="service-web.html">Web Development</a>
+                    <a href="service-graphics.html">Graphic Designing</a>
+                    <a href="service-film.html">Film&Photography</a>
+                    <a href="service-graphics.html">Graphic Designing</a>
+                    <a href="service-branding.html">Brand Identity</a>
+                    <a href="service-business.html">Business Management</a>
+                    <a href="service-marketing.html">Digital Marketing</a>
+                    <a href="service-socialmedia.html">Social Media</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 text-center ">
+                <a class="text-header  nav-link" href="aboutus.html">About</a>
+              </div>
+              <div class="col-2 text-center">
+                <a class="text-header nav-link" href="contact.html">Contact</a>
+              </div>
+              <div class="col-4 ">
+                <button  style="margin:0; " id="myBtn" type="button" class="d-sm-none d-md-block d-none text-header-button header-button-sizing btn btn-light"> Have a Question?</button>
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 style="padding-bottom:20px;" class="text-title text-center">Have a Question?</h3>
+                    <form  class=" container">
+                      <div class="form-row">
+                        <div class="form-group col-12 col-sm-12">
+                          <select  id="inputState" class="textarea-info form-control">
+                            <option selected>Services...</option>
+                            <option>Web & Software Development</option>
+                            <option>Graphic Designing</option>
+                            <option>Digital Marketing</option>
+                            <option>Social Media</option>
+                            <option>Film & Photography</option>
+                            <option>Business Management</option>
+                            <option>Brand Identity</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-12 col-sm-12">
+                          <input style="border-radius:25px;" placeholder="Name" type="text" class=" textarea-info form-control" id="inputZip">
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6 col-sm-6">
+                          <input style="border-radius: 25px;" type="email" class="textarea-info form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6 col-sm-6">
+                          <input style="border-radius: 25px; "  type="password" class="textarea-info form-control" id="inputPassword4" placeholder="Phone Number">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                       <textarea style="border-radius: 15px;" placeholder="How can we help?" class="textarea-info form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                     </div>
+
+                     <button style="margin-top:2%;" class="style-button-2" type="button" name="button">Contact</button>
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- Mobile -->
+        <div class="d-block d-sm-none d-none d-sm-block d-md-none">
+          <!--    Made by Erik Terwan    -->
+          <!--   24th of November 2015   -->
+          <!--        MIT License        -->
+
+
+          <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+
+              <!--
+              Some spans to act as a hamburger.
+
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <a style="font-weight:100; " class="text-title" href="index.html"><li>Home</li></a>
+                <p onclick="myFunction()" style="font-weight:100;" class="text-title" href="services.html"><li>Services<i onclick="myFunction()" style="margin-left:15px;"class="fas fa-caret-down"></i></li></p>
+                <div style="margin-top:-20px;" id="myDIV" class="row">
+                  <a  style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-web.html">Web Development</a>
+                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-graphics.html">Graphic Designing</a>
+                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-film.html">Film&Photography</a>
+                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-graphics.html">Graphic Designing</a>
+                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-branding.html">Brand Identity</a>
+                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-business.html">Business Management</a>
+                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-marketing.html">Digital Marketing</a>
+                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-socialmedia.html">Social Media</a>
+                </div>
+                <a style="font-weight:100;" class="text-title" href="aboutus.html"><li>About Us</li></a>
+                <a style="font-weight:100;" class="text-title" href="contact.html"><li>Contact</li></a>
+
+                <button style="box-shadow: 0; font-size:15px; margin-top:10px; margin-left:4%;" class="style-button-blue-aboutus" type="button" name="button">Have a Question?</button>
+              </ul>
+            </div>
+          </nav>
+
+
+
+        </div>
+        <!-- Image -->
+        <img src="assets/images/sofoundsite-services2.jpg" class="image-header"  alt="">
+        <img id="content-mobile" src="assets/images/Untitled-4.jpg" class="image-header"  alt="">
+
+      </nav>
+      <!-- ..............Promotion......... -->
+      <div class="hidden">
+        <div class="col-6"></div>
+        <div class="col-6 header-opener  " >
+          <div class="row">
+            <p class="text-header-minor">Don't hesitate</p>
+          </div>
+          <div class="row ">
+            <h1 id="dont-show-on-small" class="text-header-pro header-margin ">Graphic <br>Design</h1>
+            <h1 id="show-on-small" class="text-header-pro header-margin ">Graphic<br>Design</h1>
+          </div>
+          <div class="row">
+            <p class="text-header-minor margin-top-header">available 24/7</p>
+          </div>
+          <div class="row" >
+            <p class="text-header-paragraph margin-text-header-paragraph ">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud  exercitation
+          </div>
+          <div class="row">
+            <a href="contact.html"> <button  class="style-button-blue" type="button" name="button">Services</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <br >
+   <!-- ............................................. (1) Why Us .............................................................................. -->
+    <section class=" services-indepth-top ">
+      <div class="bg-services-indepth-white">
+          d
+      </div>
+    </section>
+    <!-- ............................................. (2) What we do ................................................................................... -->
+    <section class="bg-services-indepth">
+      fde
+    </section>
+    <!-- ............................................. (3) The Service .................................................................................... -->
+    <section class="bg-services-indepth-white">
+      fde
+    </section>
+    <!-- ............................................. (2) What we do ................................................................................... -->
+    <section class="bg-services-indepth">
+      fde
+    </section>
+
+    <!-- ............................................. (5) Examples  .................................................................................... -->
+    <section>
+      <div  style="margin-top:0; padding-top:5%;" class="row container-examples">
+        <div class="row">
+          <h1 style="margin-top:0; padding-top:0; padding-left:25%;" class="text-title">Recent</h1>
+        </div>
+        <div class="row">
+          <div class="col-6 col-lg-4 col-md-4">
+            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-md-4">
+            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-md-4">
+            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-md-4">
+            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-md-4">
+            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+          </div>
+          <div class="col-6 col-lg-4 col-md-4">
+            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+            <p style="margin-right:-60%;"class="text-center text-see-more">click here to see more</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+</body>
+
+
+
+<!-- ............................................. Footer ............................................. -->
+<div class="">
+  <div id="margin-d" class="text-center">
+  <form  style=""class=" background-box ">
+    <h5 style="margin-bottom:7%; margin-top: 5%;"class="text-form text-center">Don't be afraid, Get in Touch!</h5>
+    <div class="form-row">
+      <div class="form-group col-6 col-sm-6">
+        <select  id="inputState" class="textarea-info form-control">
+          <option selected>Services...</option>
+          <option>Web & Software Development</option>
+          <option>Graphic Designing</option>
+          <option>Digital Marketing</option>
+          <option>Social Media</option>
+          <option>Film & Photography</option>
+          <option>Business Management</option>
+          <option>Brand Identity</option>
+        </select>
+      </div>
+      <div class="form-group col-6 col-sm-6">
+        <input style="border-radius:25px;" placeholder="Name" type="text" class=" textarea-info form-control" id="inputZip">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6 col-sm-6">
+        <input style="border-radius: 25px;" type="email" class="textarea-info form-control" id="inputEmail4" placeholder="Email">
+      </div>
+      <div class="form-group col-md-6 col-sm-6">
+        <input style="border-radius: 25px; "  type="password" class="textarea-info form-control" id="inputPassword4" placeholder="Phone Number">
+      </div>
+    </div>
+    <div class="form-group">
+     <textarea style="border-radius: 15px;" placeholder="How can we help?" class="textarea-info form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+   </div>
+
+   <button  class="style-button-2" type="button" name="button">Contact Us</button>
+  </form>
+  </div>
+  <footer >
+    <img src="assets/images/footer-short.jpg" class="image-footer"  alt="">
+
+  </footer>
+  <footer style="background-color:#1a55a3;" class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="text-footer  text-uppercase mt-3 mb-4">Contact</h5>
+          <!-- <p class="text-footer">Here you can use rows and columns to. </p> -->
+            <ul class=" list-unstyled">
+              <li style="margin-bottom: 8px;">
+                <a class="text-footer-list" href="www.googlemaps.com">90 Frontstreet North, M5P3A8, Toronto ON</a>
+              </li>
+              <li style="margin-bottom: 8px;">
+                <a  class="text-footer-list" href="mailto:Thesoufoundcompany@gmail.com">Thesoufoundcompany@gmail.com</a>
+              </li>
+              <li style="margin-bottom: 8px;" >
+                <a class="text-footer-list" href="tel:289-273-1687">(289) 273-1687 </a>
+              </li>
+              <li>
+                <a class="text-footer-list" target="_blank" href="www.instagram.com/thesofound">@TheSoFound</a>
+              </li>
+            </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="text-footer text-uppercase mt-3 mb-4">Services</h5>
+
+          <ul class=" list-unstyled">
+            <li>
+              <a class="text-footer-list" href="#!">Our Mission</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">Our Team</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">Careers</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">More</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="text-footer text-uppercase mt-3 mb-4">Portfolio</h5>
+
+          <ul class=" list-unstyled">
+            <li>
+              <a class="text-footer-list" href="#!">Our Mission</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">Our Team</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">Careers</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">More</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="text-footer text-uppercase mt-3 mb-4">About Us</h5>
+
+          <ul class=" list-unstyled">
+            <li>
+              <a class="text-footer-list" href="#!">Our Mission</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">Our Team</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">Careers</a>
+            </li>
+            <li>
+              <a class="text-footer-list" href="#!">More</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!--  <hr>
+
+     Call to action
+
+    <ul style="background-color:grey;" class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Register for free</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+      </li>
+    </ul>
+
+    <hr> -->
+
+    <!-- Social buttons -->
+    <ul style="margin-top:50px;" class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="">
+          <i  class=" socials fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class=" socials fab fa-instagram"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="socials fas fa-envelope"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="socials fas fa-phone"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <div class="text-footer-copyright footer-copyright text-center py-3 ">© 2019 Copyright theSoFound Company
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+
+</div>
+</html>
