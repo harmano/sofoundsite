@@ -22,6 +22,10 @@ html {
   display: none;
 }
 
+.text-header-pro-boutus{
+  margin-top: 10%;
+}
+
 
 
 .contact-padding{
@@ -50,6 +54,16 @@ html {
   font-size: 14px;
   margin-left:14%;
   font-weight: 300;
+  padding-top: 10px;
+
+}
+
+.dropdown-services-2:hover{
+  font-size: 14px;
+  margin-left:14%;
+  font-weight: 300;
+  color:grey;
+
 }
 
 .aboutus-text{
@@ -406,9 +420,12 @@ html {
   z-index: -9;
   position: relative;
   background-size: 100% 100%;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .background-box{
+  position: relative;
   margin-top: 3%;
   border-radius: 20px;
   padding: 23px 8%;
@@ -639,6 +656,45 @@ a:hover
   font-size:2.2vw;
   margin-bottom: 20px;
 
+}
+.text-title-2{
+  font-family: 'Poppins', sans-serif;
+  color: Black;
+  font-size:2.2vw;
+  margin-bottom: 20px;
+
+}
+.text-title-2:hover{
+  font-family: 'Poppins', sans-serif;
+  color: grey;
+  font-size:2.2vw;
+  margin-bottom: 20px;
+}
+#inputState{
+  font-size: 15px;
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  position: relative;
+  border-color: transparent;
+  color: #6D767F;
+}
+
+.search_categories {
+    font-size: 13px;
+    padding: 4px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+    border-radius: 25px;
+
+}
+
+.text-title-3:hover{
+  color: grey;
+  transition: .4s;
 }
 
 .text-subtitle{
@@ -888,6 +944,8 @@ a:hover
     margin-left: 13%;
   }
 
+
+
 }
 
 /*.....................  start of medium tablet styles ..................... */
@@ -992,6 +1050,7 @@ a:hover
   }
   .background-box{
     margin-top: 3%;
+    position: relative;
     border-radius: 10px;
     margin: 40px;
     padding: 23px 8%;
@@ -1230,6 +1289,7 @@ a:hover
   }
 
   .background-box{
+    position: relative;
     margin-top: 3%;
     background-color: #cdcdcd;
     border-radius: 10px;
