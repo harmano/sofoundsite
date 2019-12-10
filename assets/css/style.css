@@ -1006,6 +1006,13 @@ a:hover
     width: 100%;
     height: 5px;
   }
+  .services-id-sellingpoints{
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .services-id-reviews{
+    margin-bottom: 7%;
+  }
   .image-differences {
     border-radius: 50%;
     height: 70px;
