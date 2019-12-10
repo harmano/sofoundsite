@@ -35,22 +35,20 @@
               <div   style="margin-left:-10px;"  class="col-2 ">
                 <a class="text-header nav-link" href="index.html">Home</a>
               </div>
-              <div class="col-2 text-left">
-                <div  class="dropdown">
-                  <button id="dropdown-padding" style="" class="nav-link  dropbtn">Services</button>
-                  <div class="dropdown-content">
-                    <a href="service-web.html">Web Development</a>
-                    <a href="service-graphics.html">Graphic Designing</a>
-                    <a href="service-film.html">Film&Photography</a>
-                    <a href="service-graphics.html">Graphic Designing</a>
-                    <a href="service-branding.html">Brand Identity</a>
-                    <a href="service-business.html">Business Management</a>
-                    <a href="service-marketing.html">Digital Marketing</a>
-                    <a href="service-socialmedia.html">Social Media</a>
-                  </div>
+              <div class="col-2 dropdown">
+                <p class="text-header nav-link">Services</p>
+                <div class="dropdown-content text-left">
+                  <a href="service-web.html">Web Development</a>
+                  <a href="service-graphics.html">Graphic Designing</a>
+                  <a href="service-film.html">Film&Photography</a>
+                  <a href="service-graphics.html">Graphic Designing</a>
+                  <a href="service-branding.html">Brand Identity</a>
+                  <a href="service-business.html">Business Management</a>
+                  <a href="service-marketing.html">Digital Marketing</a>
+                  <a href="service-socialmedia.html">Social Media</a>
                 </div>
               </div>
-              <div class="col-2 text-center ">
+              <div class="col-2  ">
                 <a class="text-header  nav-link" href="aboutus.html">About</a>
               </div>
               <div class="col-2 text-center">
@@ -64,10 +62,10 @@
                   <div class="modal-content">
                     <span class="close">&times;</span>
                     <h3 style="padding-bottom:20px;" class="text-title text-center">Have a Question?</h3>
-                    <form  class=" container">
+                    <form onsubmit="return validateForm()" action="index.html" class=" container">
                       <div class="form-row">
-                        <div class="form-group col-12 col-sm-12">
-                          <select  id="inputState" class="textarea-info form-control">
+                        <div  class="  search_categories  form-group col-12 col-sm-12">
+                          <select  id="inputState" name="search_categories" class="textarea-info form-control">
                             <option selected>Services...</option>
                             <option>Web & Software Development</option>
                             <option>Graphic Designing</option>
@@ -79,22 +77,22 @@
                           </select>
                         </div>
                         <div class="form-group col-12 col-sm-12">
-                          <input style="border-radius:25px;" placeholder="Name" type="text" class=" textarea-info form-control" id="inputZip">
+                          <input style="border-radius:25px;" placeholder="Name" type="text" name="firstname" class=" textarea-info form-control" required>
                         </div>
                       </div>
                       <div class="form-row">
                         <div class="form-group col-md-6 col-sm-6">
-                          <input style="border-radius: 25px;" type="email" class="textarea-info form-control" id="inputEmail4" placeholder="Email">
+                          <input style="border-radius: 25px;" type="email" class="textarea-info form-control" id="Email" placeholder="Email" required>
                         </div>
                         <div class="form-group col-md-6 col-sm-6">
-                          <input style="border-radius: 25px; "  type="password" class="textarea-info form-control" id="inputPassword4" placeholder="Phone Number">
+                          <input style="border-radius: 25px; "  class="textarea-info form-control" placeholder="Phone" type="tel" name="phone" required>
                         </div>
                       </div>
                       <div class="form-group">
                        <textarea style="border-radius: 15px;" placeholder="How can we help?" class="textarea-info form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                      </div>
 
-                     <button style="margin-top:2%;" class="style-button-2" type="button" name="button">Contact</button>
+                     <button style="margin-top:2%;" class="style-button-2" type="submit" name="button">Contact</button>
                     </form>
                   </div>
 
@@ -107,11 +105,6 @@
         </div>
         <!-- Mobile -->
         <div class="d-block d-sm-none d-none d-sm-block d-md-none">
-          <!--    Made by Erik Terwan    -->
-          <!--   24th of November 2015   -->
-          <!--        MIT License        -->
-
-
           <nav role="navigation">
             <div id="menuToggle">
               <!--
@@ -135,20 +128,21 @@
               but hey, it's pure CSS magic.
               -->
               <ul id="menu">
-                <a style="font-weight:100; " class="text-title" href="index.html"><li>Home</li></a>
-                <p onclick="myFunction()" style="font-weight:100;" class="text-title" href="services.html"><li>Services<i onclick="myFunction()" style="margin-left:15px;"class="fas fa-caret-down"></i></li></p>
-                <div style="margin-top:-20px;" id="myDIV" class="row">
-                  <a  style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-web.html">Web Development</a>
-                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-graphics.html">Graphic Designing</a>
-                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-film.html">Film&Photography</a>
-                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-graphics.html">Graphic Designing</a>
-                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-branding.html">Brand Identity</a>
-                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-business.html">Business Management</a>
-                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-marketing.html">Digital Marketing</a>
-                  <a style="margin-top:3px;" class="col-12 dropdown-services-2" href="service-socialmedia.html">Social Media</a>
+                <a style="font-weight:100; " class="text-title-2" href="index.html"><li>Home</li></a>
+                <a onclick="myFunction()" style="font-weight:100;" class="text-title-2" ><li class="text-title-3">Services<i style="margin-left:15px;"class="fas fa-caret-down"></i></li></a>
+                <div style="margin-top:-10px;" id="myDIV" class="row">
+                  <a  style="margin-top:9px;" class="col-12 dropdown-services-2" href="service-web.html">Web Development</a>
+                  <a style="margin-top:9px;" class="col-12 dropdown-services-2" href="service-graphics.html">Graphic Designing</a>
+                  <a style="margin-top:9px;" class="col-12 dropdown-services-2" href="service-film.html">Film&Photography</a>
+                  <a style="margin-top:9px;" class="col-12 dropdown-services-2" href="service-graphics.html">Graphic Designing</a>
+                  <a style="margin-top:9px;" class="col-12 dropdown-services-2" href="service-branding.html">Brand Identity</a>
+                  <a style="margin-top:9px;" class="col-12 dropdown-services-2" href="service-business.html">Business Management</a>
+                  <a style="margin-top:9px;" class="col-12 dropdown-services-2" href="service-marketing.html">Digital Marketing</a>
+                  <a style="margin-top:9px;" class="col-12 dropdown-services-2" href="service-socialmedia.html">Social Media</a>
                 </div>
-                <a style="font-weight:100;" class="text-title" href="aboutus.html"><li>About Us</li></a>
-                <a style="font-weight:100;" class="text-title" href="contact.html"><li>Contact</li></a>
+                <a style="font-weight:100;" class="text-title-2" href="aboutus.html"><li>About Us</li></a>
+
+                <a style="font-weight:100;" class="text-title-2" href="contact.html"><li>Contact</li></a>
 
                 <button style="box-shadow: 0; font-size:15px; margin-top:10px; margin-left:4%;" class="style-button-blue-aboutus" type="button" name="button">Have a Question?</button>
               </ul>
@@ -168,17 +162,17 @@
         <div class="col-6"></div>
         <div class="col-6 header-opener header-opener-web  " >
           <div class="row">
-            <p class="text-header-minor">Our</p>
+            <p class="text-header-minor">Cutting Edge</p>
           </div>
           <div class="row ">
             <h1 id="dont-show-on-small" class="text-header-pro  header-margin ">Web<br>Development</h1>
             <h1 id="show-on-small" class="text-header-pro text-header-pro-green header-margin ">Web<br>Develop<br>-ment</h1>
           </div>
           <div class="row">
-            <p class="text-header-minor margin-top-header">is different</p>
+            <p class="text-header-minor margin-top-header">starting at $795.99</p>
           </div>
           <div class="row" >
-            <p class="text-header-paragraph margin-text-header-paragraph ">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud  exercitation
+            <p class="text-header-paragraph margin-text-header-paragraph ">Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud  exercitation
           </div>
           <div class="row">
             <a href="contact.html"> <button  class="style-button-blue" type="button" name="button">Contact Us</button></a>
@@ -187,54 +181,158 @@
       </div>
     </header>
     <br >
-   <!-- ............................................. (1) Why Us .............................................................................. -->
+   <!-- ............................................. (1) Types Of Sites .............................................................................. -->
     <section class=" services-indepth-top ">
       <div class="bg-services-indepth-white">
-          d
+        <div class="row text-center">
+          <div class="services-margin-top col-lg-4 col-md-4 col-sm-4 col-xs-4 col-6">
+            <a href="home.html"> <img class="image-services hvr-grow" style="padding:10px;" href="contact.html" src="assets/images/computer1.png" alt=""></a>
+            <p class="text-heading">Ecommerce</p>
+          </div>
+          <div class="services-margin-top  col-lg-4 col-md-4 col-sm-4 col-xs-4 col-6">
+              <a href="home.html"> <img class="image-services hvr-grow" style="padding:10px;" src="assets/images/graphics.png" alt=""></a>
+            <p class="text-heading">Blog</p>
+          </div>
+          <div class="services-margin-top  col-lg-4 col-md-4 col-sm-4 col-xs-4 col-6">
+              <a href="home.html"> <img class="image-services hvr-grow"  style="padding:10px;" src="assets/images/marketing.png" alt=""></a>
+            <p class="text-heading">Business<br>Landing Page</p>
+          </div>
+          <div class="services-margin-top  col-lg-12 col-md-12 col-sm-12 col-xs-12 col-6">
+              <a href="home.html"> <img class="image-services hvr-grow"  style="padding:10px;" src="assets/images/marketing.png" alt=""></a>
+            <p class="text-heading">.....Anything you <br> can THINK OF</p>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- ............................................. (2) What we do ................................................................................... -->
-    <section class="bg-services-indepth">
-      fde
-    </section>
-    <!-- ............................................. (3) The Service .................................................................................... -->
-    <section class="bg-services-indepth-white">
-      fde
-    </section>
-    <!-- ............................................. (2) What we do ................................................................................... -->
-    <section class="bg-services-indepth">
-      fde
-    </section>
-
-    <!-- ............................................. (5) Examples  .................................................................................... -->
-    <section>
-      <div  style="margin-top:0; padding-top:5%;" class="row container-examples">
+    <!-- ............................................. (2) Difference ................................................................................... -->
+    <section class="top-bottom-box bg-services-indepth">
+      <div class="services-id-sellingpoints">
         <div class="row">
-          <h1 style="margin-top:0; padding-top:0; padding-left:25%;" class="text-title">Recent</h1>
+            <div style="padding:3%;" class="services-id-sellingpoints col-lg-4 col-md-4 col-sm-4 col-xs-4 col-12">
+                <div class="rows text-center">
+                  <img src="assets/images/waterclub.png" class="image-differences" alt="">
+                </div>
+                <div class="rows text-center">
+                  <p style="margin-top:3%; margin-bottom:1%;  color:white;"class="text-title">Fast Uploading</p>
+                </div>
+                <div  style=";" class="rows text-center">
+                  <p class="text-paragraph "  style="color:white;">Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud  exercitation</p>
+                </div>
+            </div>
+            <div style="padding:3%;" class="services-id-sellingpoints col-lg-4 col-md-4 col-sm-4 col-xs-4 col-12">
+                <div class="rows text-center">
+                  <img src="assets/images/a-reveiws.png" class="image-differences" alt="">
+                </div>
+                <div class="rows text-center">
+                  <p style="margin-top:3%; margin-bottom:1%; color:white;"class="text-title">24/7 Service</p>
+                </div>
+                <div  style="" class="rows text-center">
+                  <p class="text-paragraph "  style="color:white;">Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud  exercitation</p>
+                </div>
+            </div>
+            <div style="padding:3%;" class="services-id-sellingpoints col-lg-4 col-md-4 col-sm-4 col-xs-4 col-12">
+                <div class="rows text-center">
+                  <img src="assets/images/milk-logo-reviews.png" class="image-differences" alt="">
+                </div>
+                <div class="rows text-center">
+                  <p style="margin-top:3%; margin-bottom:1%;  color:white;"class="text-title">Free Updates</p>
+                </div>
+                <div  style=";" class="rows text-center">
+                  <p class="text-paragraph "  style="color:white;">Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud  exercitation</p>
+                </div>
+            </div>
         </div>
-        <div class="row">
+      </div>
+    </section>
+    <!-- ............................................. (3) Portfolio .................................................................................... -->
+    <section class=" text-center bg-services-indepth-white-reviews">
+      <div  style="margin-top:0; padding-top:5%; margin-bottom:0%; padding-bottom:0%;" class="row container-examples">
+
+        <div class="row" style="margin-bottom:0%; padding-bottom:0%;">
           <div class="col-6 col-lg-4 col-md-4">
-            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+            <img class="img-portfolio-web"src="assets/images/how-site-web.png" alt="">
           </div>
           <div class="col-6 col-lg-4 col-md-4">
-            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+            <img class="img-portfolio-web"src="assets/images/how-site-web.png" alt="">
           </div>
           <div class="col-6 col-lg-4 col-md-4">
-            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+            <img class="img-portfolio-web"src="assets/images/how-site-web.png" alt="">
           </div>
           <div class="col-6 col-lg-4 col-md-4">
-            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+            <img class="img-portfolio-web"src="assets/images/how-site-web.png" alt="">
           </div>
           <div class="col-6 col-lg-4 col-md-4">
-            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+            <img class="img-portfolio-web"src="assets/images/how-site-web.png" alt="">
           </div>
           <div class="col-6 col-lg-4 col-md-4">
-            <img class="img-portfolio-web"src="assets/images/how-site-map.jpg" alt="">
+            <img class="img-portfolio-web"src="assets/images/how-site-web.png" alt="">
             <p style="margin-right:-60%;"class="text-center text-see-more">click here to see more</p>
           </div>
         </div>
       </div>
 
+    </section>
+    <!-- ............................................. (2) What we do ................................................................................... -->
+    <section class="top-bottom-box text-center bg-services-indepth"  style="margin-top:0; padding-top:5%; padding-bottom:10%;">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6 col-12">
+          <div class="card " style="">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="text-paragraph">With supporting text below as a natural lead-in to additional content.</p>
+              <blockquote class="blockquote mb-0">
+                <footer class="blockquote-footer">Graphics for<cite title="Source Title">The Water Club</cite></footer>
+                <img src="assets/images/waterclub.png" class="image-reviews" alt="">
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="card-margin col-lg-6 col-md-6 col-xs-6 col-12">
+          <div class="card" style="">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="text-paragraph">With supporting text below as a natural lead-in to additional content.</p>
+              <blockquote class="blockquote mb-0">
+                <footer class="blockquote-footer">Branding for<cite title="Source Title">A&A Law Frim</cite></footer>
+                <img src="assets/images/a-reveiws.png" class="image-reviews" alt="">
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row margin-top-reviews" style="">
+        <div class="card-margin col-lg-6 col-md-6 col-xs-6 col-12">
+          <div class="card" style="">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="text-paragraph">With supporting text below as a natural lead-in to additional content.</p>
+              <blockquote class="blockquote mb-0">
+                <footer class="blockquote-footer">Web Dev. <cite title="Source Title">D&S Car Service</cite></footer>
+                <img src="assets/images/d&s-review.png" class="image-reviews" alt="">
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="card-margin col-lg-6 col-md-6 col-xs-6 col-12">
+          <div class="card" style="">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="text-paragraph">With supporting text below as a natural lead-in to additional content.</p>
+              <blockquote class="blockquote mb-0">
+                <footer class="blockquote-footer">Branding <cite title="Source Title">ActuallyMilk</cite></footer>
+                <img src="assets/images/milk-logo-reviews.png" class="image-reviews" alt="">
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ............................................. (5) Examples  .................................................................................... -->
+    <section>
+      <div class="row text-center">
+        <h1 class="CTA-Quote">"With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content"</h1>
+      </div>
     </section>
 
 </body>
@@ -245,7 +343,7 @@
 <div class="">
   <div id="margin-d" class="text-center">
   <form  style=""class=" background-box ">
-    <h5 style="margin-bottom:7%; margin-top: 5%;"class="text-form text-center">Don't be afraid, Get in Touch!</h5>
+    <h5 style="margin-bottom:7%; margin-top: 5%;"class="text-form text-center">Need a Website? Get in Touch!</h5>
     <div class="form-row">
       <div class="form-group col-6 col-sm-6">
         <select  id="inputState" class="textarea-info form-control">
