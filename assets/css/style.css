@@ -75,7 +75,7 @@ html {
   padding-bottom: 10%;
 }
 .services-indepth-top{
-  margin-top: 7%;
+  margin-top: 12%;
 }
 .dropdown-services-2{
   font-size: 14px;
@@ -505,11 +505,14 @@ ul {
   margin-right: 1%;
 }
 
-
+.services-container-id{
+  padding-left: 7%;
+  padding-right:  7%;
+}
 /* ....------------------------------------------------ Images ------------------------------------------------------- ...*/
 
 .image-services{
-  width: 160px;
+  width: 4vw;
   height: auto;
 }
 
@@ -855,7 +858,7 @@ a:hover
     margin-right: 0px;
   }
   .image-services{
-    width: 180px;
+    width: 220px;
     height: auto;
   }
 
@@ -901,7 +904,7 @@ a:hover
     margin-left: 12%;
   }
   .services-indepth-top{
-    margin-top: 9%;
+    margin-top: 12%;
   }
 
 }
@@ -1180,7 +1183,7 @@ a:hover
     padding: 23px 8%;
     width: 80%;
     height: 400px;
-    background-color: #cdcdcd;
+    background-color: #1a55a3;
     background-repeat: no-repeat;
     background-size: auto;
     background-size: 100% 100%;
@@ -1439,7 +1442,7 @@ a:hover
     padding: 23px 8%;
     width: 90%;
     height: 420px;
-    background-color: #cdcdcd;
+    background-color: #1a55a3;
     background-repeat: no-repeat;
     background-size: auto;
     background-size: 100% 100%;
