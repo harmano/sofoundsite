@@ -7,6 +7,8 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 .expando {
   display: none;
@@ -240,7 +242,7 @@ html {
   margin-top: 19%;
 }
 .aboutus-margin-top {
-  margin-top: 17%;
+  margin-top: 12%;
 }
 
 .newspaper{
@@ -410,17 +412,16 @@ html {
   margin-left: px;
 }
 .socials {
-    background: #fcfcfc;
-    color: #1a55a3;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding: 7px;
-
+  background: #fcfcfc;
+  color: #1a55a3;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px;
 }
+
 
 .socials-2 {
     background: #fcfcfc;
@@ -434,6 +435,28 @@ html {
     padding: 7px;
     size: 20px;
     font-size: 20px;
+}
+
+.socials-3 {
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 7px;
+    size: 10px;
+    font-size: 16.5px;
+    background: ;
+    margin: px;
+}
+
+.socials-3:hover {
+  opacity: 1;
+  transition: 0.4s;
+  background: ;
+  color: #b2b1b1;
 }
 
 .social-margin{
@@ -505,6 +528,33 @@ html {
       margin-top: 4%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
+
+      .style-button-form{
+        background-color: white; /* #fcfcfc */
+        border: none;
+        color: black;
+        padding: 13px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        border-radius: 72px;
+        box-shadow: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+        text-align: center;
+        margin-top: 7%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .style-button-form:hover{
+          background-color: #b2b1b1;
+          opacity: 1;
+          transition: 0.4s;
+          color: white;
+          }
 .style-button-blue{
   background-color: #2870dc; /* #fcfcfc */
   border: none;
@@ -619,6 +669,8 @@ html {
 .textarea-info{
   height: 100%;
   width: 100%;
+  font-family: 'Lato', sans-serif;
+
 }
 /* ....------------------------------------------------ Nav ------------------------------------------------------- ...*/
 
@@ -644,7 +696,19 @@ ul {
 
 }
 /* ....------------------------------------------------ Images ------------------------------------------------------- ...*/
+.aboutus-profilepics{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 400px;
+  height: ;
+  text-align: center;
+  border-radius: 50%;
 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+
+}
 .image-services{
   width: 4vw;
   height: auto;
@@ -881,11 +945,10 @@ a:hover
 }
 
 .text-title{
-  font-family: 'Poppins', sans-serif;
   color: Black;
   font-size:2.2vw;
   margin-bottom: 20px;
-
+font-family: 'lato', sans-serif;
 }
 .CTA-Quote{
   font-family: Monoton;
@@ -925,14 +988,15 @@ a:hover
 
 .search_categories {
     font-size: 13px;
-    padding: 4px;
+    padding: 0px;
     background: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #dadfe3;
     border-radius: 6px;
     position: relative;
     border-radius: 25px;
-
+font-family: 'Lato', sans-serif;
 }
+
 
 .text-title-3:hover{
   color: grey;
@@ -1274,6 +1338,7 @@ a:hover
     color: lightblue;
     font-family: 'Lilita One', cursive;
   }
+
   .text-website{
     font-size: 2.5vw;
   }
@@ -1405,7 +1470,6 @@ a:hover
   }
 
   .text-title{
-    font-family: 'Poppins', sans-serif;
     color: Black;
     font-size:22PX;
     margin-bottom: 0px;
@@ -1494,7 +1558,7 @@ a:hover
     column-count: 2;
   }
   .aboutus-margin-top {
-    margin-top: 5%;
+    margin-top: 2%;
   }
 
   .text-header-pro-yellow {
@@ -1993,6 +2057,7 @@ body
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
+  padding-bottom: 40px;
   border: 1px solid #888;
   width: 70%;
   max-width: 700px;
@@ -2017,4 +2082,99 @@ animation-duration: 0.4s
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+.select-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+  font-size: 18px;
+  color: #60666d;
+}
+@media (min-width: 768px) {
+  .select-box {
+    width: 70%;
+ }
+}
+@media (min-width: 992px) {
+  .select-box {
+    width: 50%;
+ }
+}
+@media (min-width: 1200px) {
+  .select-box {
+    width: 30%;
+ }
+}
+.select-box__current {
+  position: relative;
+  box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+.select-box__current:focus + .select-box__list {
+  opacity: 1;
+  animation-name: none;
+}
+.select-box__current:focus + .select-box__list .select-box__option {
+  cursor: pointer;
+}
+.select-box__current:focus .select-box__icon {
+  transform: translateY(-50%) rotate(180deg);
+}
+.select-box__icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 20px;
+  opacity: 0.3;
+  transition: 0.2s ease;
+}
+.select-box__value {
+  display: flex;
+}
+.select-box__input {
+  display: none;
+}
+.select-box__input:checked + .select-box__input-text {
+  display: block;
+}
+.select-box__input-text {
+  display: none;
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+  background-color: #fff;
+}
+.select-box__list {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  animation-name: HideList;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: step-start;
+  box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+}
+.select-box__option {
+  display: block;
+  padding: 15px;
+  background-color: #fff;
+}
+.select-box__option:hover, .select-box__option:focus {
+  color: #546c84;
+  background-color: #fbfbfb;
+}
+@keyframes HideList {
+  from {
+    transform: scaleY(1);
+ }
+  to {
+    transform: scaleY(0);
+ }
 }
