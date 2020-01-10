@@ -72,6 +72,11 @@ transform: translate(0, 0);
     to   { opacity: 1; }
 }
 
+/* ....------------------------------------------------ Icons ----------------------------------------------------------------------- ...*/
+.icon-bulletpoints{
+  color: black;
+}
+
 
 /* ....------------------------------------------------ Services Top In Depth ------------------------------------------------------- ...*/
 .headingfont {
@@ -88,8 +93,10 @@ transform: translate(0, 0);
 .contact-learn{
   color:#5c95e9;
 }
+
+
 .contact-learn-homepage{
-  color:#5c95e9;
+  color:#b4b4b4;
   font-size: 10px;
 }
 .box-services{
@@ -113,6 +120,9 @@ transform: translate(0, 0);
 }
 .descript-font{
   font-size: 13px;
+}
+.descript-font-2{
+  font-size: 11px;
 }
 
 .service-d-size{
@@ -770,6 +780,8 @@ ul {
   width: 4vw;
   height: auto;
 }
+
+
 
 .img-portfolio-web{
   width: 100%;
