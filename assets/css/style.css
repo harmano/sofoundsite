@@ -125,6 +125,8 @@ transform: translate(0, 0);
   font-size: 11px;
 }
 
+
+
 .service-d-size{
   width: 50%;
   height: auto;
@@ -282,6 +284,12 @@ html {
 
 }
 
+.icon_image{
+  text-align: right;
+  margin-left: 47%;
+  margin-top: -6%;
+  margin-bottom: -10%;
+}
 .dropdown-services-2:hover{
   font-size: 14px;
   margin-left:14%;
