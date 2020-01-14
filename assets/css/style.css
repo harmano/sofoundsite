@@ -84,6 +84,17 @@ transform: translate(0, 0);
   margin-top: 7%;
 
 }
+
+.careers_table_container{
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 14%;
+  margin-bottom: 8%;
+}
+
+.p_careers{
+  font-size: 9px;
+}
 .price-font{
   color: #d11f2a;
   font-size: 9px;
@@ -92,6 +103,7 @@ transform: translate(0, 0);
 }
 .contact-learn{
   color:#5c95e9;
+  margin: 1%;
 }
 
 
@@ -288,7 +300,7 @@ html {
   text-align: right;
   margin-left: 46%;
   margin-top: -5%;
-  margin-bottom: -10%;
+  margin-bottom: -13%;
 }
 .dropdown-services-2:hover{
   font-size: 14px;
@@ -335,9 +347,21 @@ html {
   margin-left: 14%;
   margin-top:6%;
 }
+
+.header-opener-careers{
+  margin-left: 12%;
+  margin-top:12%;
+}
 .review-section{
   margin: 10% 0 10% 0;
   padding: 0 10% 0 10%;
+}
+
+.box-careers{
+  background-color: rgb(204, 204, 204, .4);
+  padding: 8%;
+  border-radius: 10px;
+
 }
 
 .margin-top-reviews{
@@ -940,6 +964,13 @@ ul {
   margin-left: 0px;
 }
 
+
+.text-header-pro-careers{
+  font-size: 4vw;
+  color: #021b55;
+  margin-left: 0px;
+}
+
 .text-header-paragraph{
   font-size: 1vw;
   color: grey;
@@ -1171,7 +1202,7 @@ font-family: 'Lato', sans-serif;
     margin-right: 0px;
   }
   .image-services{
-    width: 20vw;
+    width: 15vw;
     height: auto;
   }
 
